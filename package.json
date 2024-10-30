@@ -1,0 +1,25 @@
+{
+    "name": "derkula",
+    "displayName": "Derkula",
+    "description": "The Dracula theme reimagined for derks - because even vampires need to embrace their inner derk",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/derkula"
+    },
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Derkula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Derkula-color-theme.json"
+            }
+        ]
+    }
+}
